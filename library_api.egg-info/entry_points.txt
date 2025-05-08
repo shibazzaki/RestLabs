@@ -1,2 +1,0 @@
-[console_scripts]
-run-library-api = library_api.app:main
