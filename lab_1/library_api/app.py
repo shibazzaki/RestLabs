@@ -1,4 +1,4 @@
-# library_api/app.py
+# library_api/main.py
 
 import uuid
 from flask import Flask, jsonify, request

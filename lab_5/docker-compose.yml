@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongo_admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: library
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  api:
+    build: .
+    environment:
+      MONGO_URI: mongodb://mongo_admin:password@mongo:27017/library
+    depends_on:
+      - mongo
+    ports:
+      - "8000:8000"
+
+volumes:
+  mongo_data:

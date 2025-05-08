@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a572a7-cf42-4286-9ed1-689a3c11c2ee" name="Changes" comment="lab3 - changed Dockerfile">
-      <change afterPath="$PROJECT_DIR$/lab_4/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/library_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/library_api/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/library_api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/library_api/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_4/setup.py" afterDir="false" />
+    <list default="true" id="43a572a7-cf42-4286-9ed1-689a3c11c2ee" name="Changes" comment="lab4 - added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_3/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -83,8 +73,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hered\PycharmProjects\RestLabs\lab_2" />
       <recent name="C:\Users\hered\PycharmProjects\RestLabs" />
+      <recent name="C:\Users\hered\PycharmProjects\RestLabs\lab_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hered\PycharmProjects\RestLabs\lab_1" />
@@ -108,7 +98,7 @@
       <workItem from="1746658144013" duration="2444000" />
       <workItem from="1746660910086" duration="4254000" />
       <workItem from="1746666726520" duration="1277000" />
-      <workItem from="1746668276204" duration="1125000" />
+      <workItem from="1746668276204" duration="1741000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -150,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746668344011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lab4 - added">
+      <option name="closed" value="true" />
+      <created>1746670137549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746670137549</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lab4 - added">
+      <option name="closed" value="true" />
+      <created>1746670156065</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746670156065</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +168,8 @@
     <MESSAGE value="lab3 added" />
     <MESSAGE value="lab3 added v2" />
     <MESSAGE value="lab3 - changed Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3 - changed Dockerfile" />
+    <MESSAGE value="lab4 - added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4 - added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
