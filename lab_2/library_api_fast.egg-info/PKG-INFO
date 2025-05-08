@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: library_api_fast
+Version: 0.1.0
+Requires-Dist: fastapi>=0.85.0
+Requires-Dist: uvicorn[standard]>=0.18.0
+Dynamic: requires-dist

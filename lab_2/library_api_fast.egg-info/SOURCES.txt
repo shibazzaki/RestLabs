@@ -1,0 +1,11 @@
+README.md
+setup.py
+library_api/__init__.py
+library_api/main.py
+library_api/schemas.py
+library_api_fast.egg-info/PKG-INFO
+library_api_fast.egg-info/SOURCES.txt
+library_api_fast.egg-info/dependency_links.txt
+library_api_fast.egg-info/entry_points.txt
+library_api_fast.egg-info/requires.txt
+library_api_fast.egg-info/top_level.txt

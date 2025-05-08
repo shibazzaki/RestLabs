@@ -1,0 +1,11 @@
+# Віртуальне оточення
+venv/
+
+# Артефакти збірки
+build/
+dist/
+*.egg-info/
+
+# Кеш Python
+__pycache__/
+*.pyc
