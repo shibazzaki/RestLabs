@@ -10,3 +10,4 @@ RUN pip install --no-cache-dir .
 
 # Запуск через entry point, визначений у setup.py
 CMD ["run-library-api"]
+
