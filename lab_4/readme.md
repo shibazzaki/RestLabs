@@ -1,4 +1,4 @@
-# Lab 3: Library API (Flask + PostgreSQL + Docker + Cursor Pagination)
+# Lab 4: Library API (Flask + PostgreSQL + Docker + Cursor Pagination)
 
 ...
 
@@ -19,3 +19,5 @@
   ],
   "next_cursor": "2025-05-08T12:34:56.789123|<last_id>"    # або null, якщо більше нема
 }
+
+![image](https://github.com/user-attachments/assets/d3a26249-94b5-42cd-bc80-a5f2611e74b8)
