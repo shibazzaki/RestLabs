@@ -1,13 +1,13 @@
+# lab_5/Dockerfile
 FROM python:3.11-slim
 
 WORKDIR /app
 
-# Встановлюємо залежності
-COPY requirements.txt setup.py ./
+# Спочатку копіюємо ВСІ файли проєкту
+COPY . /app
+
+# Встановлюємо залежності і сам пакет
 RUN pip install --no-cache-dir .
 
-# Копіюємо код
-COPY . .
-
-# Точка входу
+# Запускаємо команду з entry_point
 CMD ["run-library-api"]
