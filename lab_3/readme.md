@@ -1,5 +1,4 @@
-Обробка тривала кілька секунд
-
+## Lab 3 (postgres + alchemy + docker)
 
 ````markdown
 # Lab 3: Library API (Flask + PostgreSQL + Docker)
