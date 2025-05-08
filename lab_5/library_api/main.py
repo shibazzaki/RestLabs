@@ -3,6 +3,8 @@ from fastapi import FastAPI, HTTPException, Response, status
 from typing import List
 from bson import ObjectId
 import motor.motor_asyncio
+from pydantic_mongo import PydanticObjectId
+
 
 from .schemas import Book, BookCreate
 
