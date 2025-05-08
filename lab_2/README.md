@@ -1,6 +1,6 @@
-# Lab 2: Library API with FastAPI
+# Lab 2 (FastAPI)
 
-## Опис
+##
 Проста асинхронна REST API для сутності **Book** (ID, title, author, published_year)  
 – зберігає в пам’яті (`List[Book]`), валідує через Pydantic,  
 – 4 ендпоінти:  
