@@ -8,7 +8,7 @@ setup(
         'fastapi>=0.85.0',
         'uvicorn[standard]>=0.18.0',
         'motor>=3.1.1',
-        'pydantic-mongo>=0.1.0'
+        'pydantic-mongo>=0.1.0',
         'python-jose[cryptography]>=3.3.0',
         'passlib[bcrypt]>=1.7.4',
     ],
