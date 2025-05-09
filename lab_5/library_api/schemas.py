@@ -1,15 +1,20 @@
-# library_api/schemas.py
+# lab_5/library_api/schemas.py
 
-from marshmallow_sqlalchemy import SQLAlchemySchema, auto_field
-from .models import Book as BookModel
+from pydantic import BaseModel, Field
+from pydantic_mongo import PydanticObjectId
 
-class BookSchema(SQLAlchemySchema):
-    class Meta:
-        model = BookModel
-        load_instance = True
+class BookCreate(BaseModel):
+    title: str
+    author: str
+    published_year: int
 
-    id = auto_field(dump_only=True)
-    title = auto_field(required=True)
-    author = auto_field(required=True)
-    published_year = auto_field(required=True)
-    created_at = auto_field(dump_only=True)
+class Book(BookCreate):
+    id: PydanticObjectId = Field(alias="_id")
+
+    class Config:
+        # дозволяє створити Book(id=...) з поля "_id" від Mongo
+        allow_population_by_field_name = True
+        # серіалізує ObjectId у JSON як рядок
+        json_encoders = {
+            PydanticObjectId: str
+        }
