@@ -10,9 +10,8 @@ setup(
         'motor>=3.1.1',
         'pydantic-mongo>=0.1.0',
         'python-jose[cryptography]>=3.3.0',
-        'passlib[bcrypt]>=1.7.4',
+        'passlib[bcrypt]>=1.7.4',  # пасліб уже містить pbkdf2_sha256
         'python-multipart>=0.0.5',
-        'bcrypt>=4.0.0',  # <<< add this
     ],
 
     entry_points={
