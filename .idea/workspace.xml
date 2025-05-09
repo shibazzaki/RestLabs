@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a572a7-cf42-4286-9ed1-689a3c11c2ee" name="Changes" comment="lab5 - fixed dockerfile">
+    <list default="true" id="43a572a7-cf42-4286-9ed1-689a3c11c2ee" name="Changes" comment="lab5 - пофіксив криві імпорти які забув видалити xd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_5/library_api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/library_api/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_5/library_api/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/library_api/schemas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1746660910086" duration="4254000" />
       <workItem from="1746666726520" duration="1277000" />
       <workItem from="1746668276204" duration="2558000" />
-      <workItem from="1746737997917" duration="1792000" />
+      <workItem from="1746737997917" duration="3419000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -175,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746744747578</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lab5 - пофіксив криві імпорти які забув видалити xd">
+      <option name="closed" value="true" />
+      <created>1746745542254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746745542254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +196,8 @@
     <MESSAGE value="lab4 - added" />
     <MESSAGE value="lab5 - added" />
     <MESSAGE value="lab5 - fixed dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab5 - fixed dockerfile" />
+    <MESSAGE value="lab5 - пофіксив криві імпорти які забув видалити xd" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab5 - пофіксив криві імпорти які забув видалити xd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
